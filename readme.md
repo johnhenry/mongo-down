@@ -14,7 +14,7 @@ var collectionName = "<name of collection>||'collection'";
 var levelup = require('levelup');
 var db = levelup("what/ev/er",
     {
-        db: require('mongodown')(mongoURL, collectionName)
+        db: require('mongo-down')(mongoURL, collectionName)
     }
 )
 db.put('foo', 'bar', function (err) {
