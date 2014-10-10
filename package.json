@@ -1,0 +1,29 @@
+{
+  "name": "mongo-down",
+  "version": "0.0.1",
+  "description": "",
+  "main": "mongodown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnhenry/mongo-down"
+  },
+  "keywords": [
+    "mongodb",
+    "leveldb",
+    "leveldown"
+  ],
+  "author": "John Henry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnhenry/mongo-down/issues"
+  },
+  "homepage": "https://github.com/johnhenry/mongo-down",
+  "dependencies": {
+    "abstract-leveldown": "^2.0.3",
+    "inherits": "^2.0.1",
+    "mongodb": "^1.4.19"
+  }
+}
